@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./quiz.jpeg">
+    <title>Quiz App</title>
+</head> 
+<style>
+    #countdowntimer{
+        font-size: 200px;
+        color: aliceblue;
+        font-family: cursive;
+        position: absolute;
+        left: 45%;
+        top: 30%;
+    }
+
+</style>
+<body>
+    
+    <div class="countdown">
+        <div id="countdowntimer">
+            5
+        </div>
+    </div>
+
+    <div class="app" id="app" style="display: none;">
+        <h1 id="header">HTML QUIZE</h1>
+        <div class="quiz">
+            <h2 id="question">Question </h2>
+            <div id="answer-buttons">
+                <button class="btn" id="btn1">Option 1</button>
+                <button class="btn">Option 2</button>
+                <button class="btn">Option 3</button>
+                <button class="btn">Option 4</button>
+            </div>
+
+            <div id="perentage-container" >
+                <div id="circular-progress" >
+                    <span id="progress-value">0%</span>
+            </div>
+            </div>
+            <button id="next-btn">Next</button>
+    
+        </div>
+    </div>
+
+    
+    <script src="script.js">  </script>
+    <script>
+      
+        
+    </script>
+</body>
+</html>
